@@ -9,7 +9,6 @@ def regressiva():
             l.append(cont)
         cont += 1    
 
-    print(l)
     return l
 
 if __name__ == "__regressiva__":

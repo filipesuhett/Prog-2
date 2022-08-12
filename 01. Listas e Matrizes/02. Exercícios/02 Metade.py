@@ -10,7 +10,6 @@ def metade():
         l.append(x)
         cont += 1
 
-    print(l)
     return l
 
 if __name__ == "__metade__":
