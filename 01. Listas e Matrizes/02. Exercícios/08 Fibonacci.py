@@ -1,14 +1,18 @@
-def Leitura():
-    a = int(input('how many numbers will you enter? '))
+def fibonacci(a):
     cont = 0
-    l = []
+    l = [1,1]
     cont1 = 1
     
-    while cont < a:
-        l.append(x)
-        cont += 1
+    if a > 0:    
+        while cont < a-2:
+            soma = 0
+            soma = l[cont] + l[cont1]
+            l.append(soma)
+            cont += 1
+            cont1 += 1
+            print(l)
+    else:
+        print([])
 
-    return l
-
-if __name__ == "__Leitura__":
-    Leitura()
+if __name__ == "__fibonacci__":
+    fibonacci()
