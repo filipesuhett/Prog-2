@@ -10,9 +10,9 @@ def fibonacci(a):
             l.append(soma)
             cont += 1
             cont1 += 1
-            print(l)
+            return l
     else:
-        print([])
+        return []
 
 if __name__ == "__fibonacci__":
     fibonacci()
