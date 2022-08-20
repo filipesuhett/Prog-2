@@ -9,20 +9,15 @@ def ord_abs(ord, abs):
         if abs[cont] % 2 == 0:
             a += abs[cont]
             conta += 1
-        cont += 1
-
-    cont = 0
-    
-    while len(ord) > cont:
         if not ord[cont] % 2 == 0:
             b *= ord[cont]
-            conto += 1
+            conto += 1    
         cont += 1
 
     if conta >= conto:
-        print(a)
+        return a
     else:
-        print(b)    
+        return b
 
 if __name__ == "__ord_abs__":
     ord_abs()
