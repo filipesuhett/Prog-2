@@ -11,6 +11,3 @@ def metade():
         cont += 1
 
     return l
-
-if __name__ == "__metade__":
-    metade()

@@ -13,6 +13,3 @@ def fibonacci(a):
             return l
     else:
         return []
-
-if __name__ == "__fibonacci__":
-    fibonacci()

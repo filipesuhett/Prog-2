@@ -18,6 +18,3 @@ def ord_abs(ord, abs):
         return a
     else:
         return b
-
-if __name__ == "__ord_abs__":
-    ord_abs()

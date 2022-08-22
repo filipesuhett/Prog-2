@@ -8,6 +8,3 @@ def s_matrix(a, b):
         for y in range(len(a))]
 
     return s
-
-if __name__ == "__s_matrix__":
-    s_matrix()

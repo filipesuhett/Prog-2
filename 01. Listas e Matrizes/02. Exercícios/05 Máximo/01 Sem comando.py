@@ -8,6 +8,3 @@ def maximo(l):
         b += 1
 
     return a
-        
-if __name__ == "__maximo__":
-    maximo()

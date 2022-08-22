@@ -11,6 +11,3 @@ def Leitura():
         cont += 1
 
     return l
-
-if __name__ == "__Leitura__":
-    Leitura()

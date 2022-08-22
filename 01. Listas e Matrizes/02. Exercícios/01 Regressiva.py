@@ -10,6 +10,3 @@ def regressiva():
         cont -= 1   
 
     return l
-
-if __name__ == "__regressiva__":
-    regressiva()

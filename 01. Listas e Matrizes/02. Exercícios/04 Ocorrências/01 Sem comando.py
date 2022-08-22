@@ -10,6 +10,3 @@ def ocorrencias(l,a):
         x += 1
 
     return cont
-        
-if __name__ == "__ocorrencias__":
-    ocorrencias()
