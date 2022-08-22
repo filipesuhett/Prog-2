@@ -1,11 +1,10 @@
-def main():
-    x = int(input(''))
+def temp(x, y):
     l = []
     cont = 0
     dia = 0
     
     while x > cont:
-        l.append(int(input('')))
+        l.append(y)
         cont += 1
     cont = 0
     while x > cont:
