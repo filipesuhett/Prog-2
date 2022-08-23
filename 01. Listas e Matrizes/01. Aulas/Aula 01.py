@@ -9,7 +9,7 @@ def Verificar():
     if l[i] == x:
       return True
       
-    i+=1
+    i += 1
   return False
 
   

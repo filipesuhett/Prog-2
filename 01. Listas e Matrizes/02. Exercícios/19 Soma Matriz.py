@@ -1,6 +1,3 @@
-from re import A
-
-
 def s_matrix(a, b):
     s = [[a[x][y] + b[x][y]  
     
