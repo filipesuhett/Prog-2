@@ -13,4 +13,4 @@ def trans(m):
                 for k in range(len(tm)-cont):
                     tm[q][k+cont] = 0
                 cont += 1    
-    return tm
+    print(tm)
