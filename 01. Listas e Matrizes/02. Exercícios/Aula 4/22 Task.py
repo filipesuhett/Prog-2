@@ -16,7 +16,7 @@ def deter(m):
             c = 0     
     a = 0
     for i in range(len(m)):
-        y += m[0][c] * m[1][a] * m[2][a]
+        y += m[0][c] * m[1][b] * m[2][a]
         a -= 1
         b -= 1
         c -= 1
