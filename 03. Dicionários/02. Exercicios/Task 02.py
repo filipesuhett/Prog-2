@@ -10,6 +10,10 @@ def cadas(agen):
     name = input('Digite o seu Nome: ')
     cell = input('Digite seu numero: ')
     agen[name] = (cell)
+    
+def pri(agen):
+    for name in agen:
+        print(f'Nome: {name}\t| Numero: {agen[name]}')
         
 def main():
     menu = '''---------------------------------------------
@@ -28,8 +32,7 @@ def main():
         if op == 1:
             cadas(agen)
         elif op == 2:
-            for name in agen:
-                print(f'Nome: {name} | Numero: {agen[name]}')
+            pri(agen)
         else:
             print('Operação Invalida. Tente novamente')
         op = int(input(menu))
