@@ -2,13 +2,9 @@
 
 int portas(int n)
 {
-    // Variaveis
-
-    int cont = 1;
-
     // Código
 
-    for (cont = 1; cont <= n; cont++) {
+    for (int cont = 1; cont*cont <= n; cont++) {
         printf("%d ", cont*cont);
     }
 
