@@ -1,4 +1,4 @@
-def resolve(l):
+def varetas(l):
     combi = 0
     for i in l:
         combi += i // 2
