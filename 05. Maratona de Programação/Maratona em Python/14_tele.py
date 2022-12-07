@@ -1,4 +1,4 @@
-def sub(c,a):
+def tele(c,a):
     cont = 0
     bol  = False
     while bol == False:
